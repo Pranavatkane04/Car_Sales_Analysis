@@ -1,5 +1,5 @@
 # Car Sales Analysis - Power BI Dashboard
-### Link:
+### Link:https://drive.google.com/drive/folders/1rdFFx-2v7PecmgX69m3FKViyd4Di3Pkd?usp=sharing
 ## Overview
 The Car Sales Analysis Power BI dashboard offers comprehensive insights into sales performance across various regions, customers, car models, salespersons, and car stock price trends. The dashboard visualizes and analyzes key metrics, helping stakeholders make data-driven decisions regarding sales strategies, customer engagement, and inventory management.
 
