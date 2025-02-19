@@ -39,7 +39,7 @@ CarPrice: Price of the car.
 YearOfManufacture: Year of manufacture for the car model.
 TotalSalesByCarModel: Total sales of that car model.
 
-5 )Promotions:
+5) Promotions:
 PromotionID: Unique identifier for each promotion.
 PromotionName: Name of the promotion.
 DiscountRate: Discount rate applied during the promotion.
@@ -56,7 +56,7 @@ HighestPrice: Highest price during the day.
 LowestPrice: Lowest price during the day.
 VolumeTraded: Volume of stock traded.
 
-7)Sales:
+7) Sales:
 SaleID: Unique identifier for each sale.
 DateOfSale: Date the sale occurred.
 SalesPrice: Price at which the car was sold.
@@ -95,15 +95,15 @@ Analyzes stock price trends of car models, displaying opening, closing, highest,
 Visualizes the volume of stocks traded and their impact on car sales.
 
 ## Key Insights and Analysis
-Regional Sales Performance: Identify which regions are contributing the most to total sales and where there is room for improvement.
+1) Regional Sales Performance: Identify which regions are contributing the most to total sales and where there is room for improvement.
 
-Customer Insights: Understand customer purchasing patterns, including which demographics are driving sales and which may need targeted marketing efforts.
+2) Customer Insights: Understand customer purchasing patterns, including which demographics are driving sales and which may need targeted marketing efforts.
 
-Car Model Trends: Track which car models are in high demand and adjust inventory or promotional strategies accordingly.
+3) Car Model Trends: Track which car models are in high demand and adjust inventory or promotional strategies accordingly.
 
-Salesperson Performance: Evaluate the performance of individual salespeople and identify best practices or areas for additional training.
+4) Salesperson Performance: Evaluate the performance of individual salespeople and identify best practices or areas for additional training.
 
-Stock Price Correlation: Monitor the effect of stock price trends on sales figures and market behavior.
+5) Stock Price Correlation: Monitor the effect of stock price trends on sales figures and market behavior.
 
 Conclusion
 The Car Sales Analysis Power BI dashboard provides a rich set of visualizations and metrics that help businesses track and improve sales performance across regions, car models, and customer demographics. By leveraging the interactive capabilities of Power BI, users can dive deep into the data, uncover trends, and make informed decisions to optimize sales strategies.
