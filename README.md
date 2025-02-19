@@ -8,111 +8,111 @@ The Power BI dashboard is built on a well-structured dataset comprising multiple
 ## Key Tables and Columns
 1) Regions:
    
-  RegionID: Unique identifier for each region.
-  
-  Country: Country where the region is located.
-  
-  State/Province: State or province within the country.
-  
-  City: City within the region.
+        RegionID: Unique identifier for each region.
+        
+        Country: Country where the region is located.
+        
+        State/Province: State or province within the country.
+        
+        City: City within the region.
 
 2) Salespersons:
    
-  SalespersonID: Unique identifier for each salesperson.
-  
-  SalespersonName: Name of the salesperson.
-  
-  RegionID: Region where the salesperson works.
-  
-  TotalSalesBySalesperson: Total sales made by the salesperson.
-  
-  Hiredate: The hire date of the salesperson.
+        SalespersonID: Unique identifier for each salesperson.
+        
+        SalespersonName: Name of the salesperson.
+        
+        RegionID: Region where the salesperson works.
+        
+        TotalSalesBySalesperson: Total sales made by the salesperson.
+        
+        Hiredate: The hire date of the salesperson.
 
-4) Customers:
+3) Customers:
    
-  CustomerID: Unique identifier for each customer.
-  
-  CustomerName: Name of the customer.
-  
-  Age: Age of the customer.
-  
-  Gender: Gender of the customer.
-  
-  IncomeLevel: Customer’s income level.
-  
-  RegionID: Region of the customer.
-  
-  LoyaltyProgramMember: Whether the customer is a loyalty program member.
-  
-  TotalSalesByCustomer: Total sales made by the customer.
+        CustomerID: Unique identifier for each customer.
+        
+        CustomerName: Name of the customer.
+        
+        Age: Age of the customer.
+        
+        Gender: Gender of the customer.
+        
+        IncomeLevel: Customer’s income level.
+        
+        RegionID: Region of the customer.
+        
+        LoyaltyProgramMember: Whether the customer is a loyalty program member.
+        
+        TotalSalesByCustomer: Total sales made by the customer.
 
-5) CarModels:
+4) CarModels:
      
-  CarModelID: Unique identifier for each car model.
-  
-  CarMake: Manufacturer of the car.
-  
-  CarModel: Name of the car model.
-  
-  CarType: Type of car (e.g., sedan, SUV).
-  
-  CarCategory: Category of the car (e.g., luxury, economy).
-  
-  CarPrice: Price of the car.
-  
-  YearOfManufacture: Year of manufacture for the car model.
-  
-  TotalSalesByCarModel: Total sales of that car model.
+        CarModelID: Unique identifier for each car model.
+        
+        CarMake: Manufacturer of the car.
+        
+        CarModel: Name of the car model.
+        
+        CarType: Type of car (e.g., sedan, SUV).
+        
+        CarCategory: Category of the car (e.g., luxury, economy).
+        
+        CarPrice: Price of the car.
+        
+        YearOfManufacture: Year of manufacture for the car model.
+        
+        TotalSalesByCarModel: Total sales of that car model.
 
-6) Promotions:
+5) Promotions:
    
-  PromotionID: Unique identifier for each promotion.
-  
-  PromotionName: Name of the promotion.
-  
-  DiscountRate: Discount rate applied during the promotion.
-  
-  StartDate: Start date of the promotion.
-  
-  EndDate: End date of the promotion.
+        PromotionID: Unique identifier for each promotion.
+        
+        PromotionName: Name of the promotion.
+        
+        DiscountRate: Discount rate applied during the promotion.
+        
+        StartDate: Start date of the promotion.
+        
+        EndDate: End date of the promotion.
 
-7) CarStockPrices:
+6) CarStockPrices:
    
-  StockPriceID: Unique identifier for each stock price entry.
-  
-  CarModelID: Car model identifier.
-  
-  Date: Date of the stock price record.
-  
-  OpeningPrice: Opening price of the car stock.
-  
-  ClosingPrice: Closing price of the car stock.
-  
-  HighestPrice: Highest price during the day.
-  
-  LowestPrice: Lowest price during the day.
-  
-  VolumeTraded: Volume of stock traded.
+        StockPriceID: Unique identifier for each stock price entry.
+        
+        CarModelID: Car model identifier.
+        
+        Date: Date of the stock price record.
+        
+        OpeningPrice: Opening price of the car stock.
+        
+        ClosingPrice: Closing price of the car stock.
+        
+        HighestPrice: Highest price during the day.
+        
+        LowestPrice: Lowest price during the day.
+        
+        VolumeTraded: Volume of stock traded.
 
-8) Sales:
+7) Sales:
    
-  SaleID: Unique identifier for each sale.
-  
-  DateOfSale: Date the sale occurred.
-  
-  SalesPrice: Price at which the car was sold.
-  
-  CarModelID: Car model sold.
-  
-  SalespersonID: Salesperson involved in the sale.
-  
-  RegionID: Region where the sale took place.
-  
-  CustomerID: Customer who purchased the car.
-  
-  TransactionID: Unique identifier for the transaction.
-  
-  PromotionID: Identifier for any promotion applied during the sale.
+        SaleID: Unique identifier for each sale.
+        
+        DateOfSale: Date the sale occurred.
+        
+        SalesPrice: Price at which the car was sold.
+        
+        CarModelID: Car model sold.
+        
+        SalespersonID: Salesperson involved in the sale.
+        
+        RegionID: Region where the sale took place.
+        
+        CustomerID: Customer who purchased the car.
+        
+        TransactionID: Unique identifier for the transaction.
+        
+        PromotionID: Identifier for any promotion applied during the sale.
 
 ## Dashboard Overview
 ### Key Visualizations:
